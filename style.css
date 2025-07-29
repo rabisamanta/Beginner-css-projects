@@ -1,0 +1,342 @@
+/* 
+h2{
+    color: blue;
+}
+p{
+    color: teal;
+}
+button{color: red;}
+
+body{
+    background-color:rgb(0, 255, 0);
+} 
+button{
+    background-color: #000f00;
+}  */
+/* *{
+    color: black;
+}
+
+#headinngone {
+    color: rgb(157, 0, 255);
+}
+
+#headinngtwo{
+    color: brown;
+}
+.m123{
+    color: chartreuse;
+} */
+
+
+
+
+/*
+
+# -->is used to div id 
+. --> it is used to div class 
+
+*/
+
+
+
+
+/* #box{
+    background-color: blue;
+    color: rgb(240, 240, 244);
+}
+
+
+
+.headings{
+    color: aquamarine;
+}
+button{
+    background-color: violet;
+} */
+
+
+
+
+/*h1{
+    text-align:center;
+    text-decoration: red dotted underline;
+    
+    
+} */
+/* p{
+    text-align:right;
+    
+} */
+
+
+
+
+/* a{
+    text-decoration: none;
+}
+
+#r1{
+    font-weight:900;
+}
+#r2{
+    font-weight:lighter;
+}
+#r3{
+    font-weight:unset;
+}
+#r4{
+    font-weight:bolder;
+}
+
+#one{
+    font-size: 26px;
+
+}
+#two{
+    font: size 36px;
+    line-height: 52px;
+}
+
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,'Times New Roman';
+    font-size: 25px;
+}
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Times New Roman';
+} */
+
+
+
+/* #outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+} */
+
+
+/* in css any tag we are use  that time bassacily higher prioraty is (we are write last then prioraty is high)*/
+
+
+
+
+
+
+/* h1  { 
+    height: 150px;
+    width: 150px; 
+    background-color:aquamarine;
+    
+    border-width: 10px;
+    border-color: rgb(10, 0, 0);
+    border-style:solid;
+    
+    border: 2px solid red;
+    border-radius: 10%;
+    
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding: 20px 20px 20px 20px ;
+    text-align: center;
+    text-transform: capitalize;
+} */
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(156, 11, 117);
+    border: 5px solid rgb(13, 20, 2);
+    border-color: rgb(47, 120, 184);
+    border-radius: 5%;
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    margin: 25px 25px 25px 25px;
+    display: inline;
+}
+   
+
+
+
+
+
+    
+#box1{
+    background-color: rgba(0, 0, 255, 0.5);
+    visibility:;
+}
+
+#box2{
+    background-color: rgba(0, 0, 255, 0.75);
+    display:inline;
+}
+#box3{
+    background-color: rgba(0, 0, 255, 1);
+    display: inline;
+} */
+
+
+
+
+/* div{
+    height: 100px;
+    width: 100px;
+    margin: 25px ;
+    padding: 25px ;
+    display: inline;
+    display: inline-block;
+} 
+
+
+
+
+
+.contentBox{
+    height: 100px;
+    width: 100px;
+    
+} */
+
+
+body{
+    text-align: center;
+    color: ;
+}
+
+div{
+    height: 100px;
+    width: 50px;
+    /* background-color: aqua; */
+    display: inline-block;
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+
+#container{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    /* align-content:flex-start;              */
+
+}
+#box1{
+    /* right: 10px; */
+    /* position: relative; */
+    background-color:rgb(0, 0, 0);
+    background-image: url("car_box1.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    flex-grow: 1;
+}
+#box2 {
+    /* position: relative; */
+    
+    /* top: 20px;
+    left: 25px;
+    z-index: 1; */
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    background-image: url("car_box2.jpg");
+    background-size: cover;
+    align-self: flex-start;
+    /* flex-shrink: 1; */
+    flex-grow: 2;
+}
+#box3{
+    /* position: relative; */
+    /* top: 10px; */
+    height: 75px;
+    background-color: rgb(0, 0, 0);
+    background-image: url("car_box3.jpg");
+    background-size: cover;
+}
+#box4{
+    /* position: fixed; */
+    /* right: 10px; */
+    background-color: black;
+    background-image: url("car_box4.jpg");
+    background-size: cover  ;
+    
+}
+#box5{
+    /* position: fixed; */
+    /* right: 10px; */
+    background-color: black;
+    background-image: url("car_box5.jpg");
+    background-size: cover  ;
+    align-self:flex-start;
+}
+#box6{
+    /* right: 10px; */
+    background-color: black;
+    background-image: url("car_box6.jpg");
+    background-size: cover  ;
+}
+#box7{
+    /* right: 10px; */
+    background-color: black;
+    background-image: url("car_box7.jpg");
+    background-size: cover  ;
+}
+#box8{
+    /* right: 10px; */
+    background-color: black;
+    background-image: url("car_box8.jpg");
+    background-size: cover  ;
+}
+#box9{
+    /* right: 10px; */
+    background-color: black;
+    background-image: url("car_box9.jpg");
+    background-size: cover  ;
+}
+#box10{
+    /* right: 10px; */
+    background-color: black;
+    background-image: url("car_box10.jpg");
+    background-size: cover  ;
+}
+#box11{
+    /* right: 10px; */
+    background-color: black;
+    background-image: url("car_box11.jpg");
+    background-size: cover  ;
+}
+#box12{
+    /* right: 10px; */
+    background-color: black;
+    background-image: url("car_box12.jpg");
+    background-size: cover  ;
+}
+#box13{
+    /* right: 10px; */
+    background-color: black;
+    background-image: url("car_box13.jpg");
+    background-size: cover  ;
+}
+#box14{
+    /* right: 10px; */
+    background-color: black;
+    background-image: url("car_box14.jpg");
+    background-size: cover  ;
+}
+h1{
+    /* text-align: center; */
+}
+
+
+
+
+
+
+
+

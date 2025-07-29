@@ -1,0 +1,94 @@
+*{
+    padding: ;
+    margin: ;
+    color: rgb(255, 255, 255);
+    
+}
+
+#navbar{
+    height: 60px;
+    background-color: #000000;
+}
+
+button{
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px ;
+}
+a{
+    background-color: ;
+    margin-right: 200px;
+    text-decoration:none;
+}
+
+
+/* .content{
+     display:inline-block;
+} */
+
+.contentBox1{
+    
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: rgba(250, 104, 0, 0.75);
+    padding: 25px 25px 25px 25px;
+    margin: 25px 25px 25px 25px;
+    display: inline-block;
+}
+.contentBox2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 25px 25px 25px 25px;
+    margin: 25px 25px 25px 25px;
+    display: inline-block;
+}
+
+.contentBox3{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: rgba(87, 239, 5, 0.9);
+    padding: 25px 25px 25px 25px;
+    margin: 25px 25px 25px 25px;
+    display: inline-block;
+}
+
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    font-size: 10px;
+}
+
+#box2{
+    height: 50px;
+    /* width: 30px; */
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.353);
+    margin-left:10%;
+    font-size: 2em;
+    width: 5rm;
+}   
+
+
+
+#content{
+    height: 800px;
+    background-image:;
+}
+
+
+footer{
+    height: 500px;
+    color: #fff4f4;
+    background-color: #0f1111;
+    text-align: center;
+}
+h1{
+    background-color: aqua;
+}
