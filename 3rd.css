@@ -35,6 +35,9 @@ li {
     width: 400px;
     background-color: rgb(14, 170, 188);
     display: flex;
+    justify-content: center;
+    align-items: center;
+   
  }
 
  .inner{
@@ -42,4 +45,5 @@ li {
     width: 100px;
     background-color: rgb(211, 237, 11);
     /* background-position: center; */
+    
  }
