@@ -62,12 +62,13 @@ li {
     
  } */
 
-
+/*
 div {
    height: 50px;
    width: 50px;
    background-color: purple;
 }
+
 @media(max-width : 80px){
    div {
       background-color: red;
@@ -89,7 +90,39 @@ div {
       background-color:yellow ;
    }
 }
+   /*  */
 
+div {
+   height: 100px;
+   width: 100px;
+   background-color: rgb(54, 238, 75);
+   border: 2px solid rgb(0, 0, 0);
+   position: relative ;
+   top: 100px;
+   left: 100px; 
+   /* transition-property: all;
+   transition-duration: 2s;
+   transition-timing-function: steps(5) ; */
+   /* transition: all 1s ease-in 1s;*/
+   /* transform: rotate(160deg); */
+   /* rotate: x 180deg; */
+   transition: all 2s ease-in ;
+   
+}
+
+div:hover{
+   /* background-color: rgb(255, 0, 0);
+   color: azure;
+   font-size: 20px; */
+   transform: scale(2,);
+   rotate: 360deg;
+   transform: skew(90deg);
+
+} 
+div:active{
+   background-color: rgb(71, 105, 255);
+   /* font-size: 15px; */
+}
 
 
 
