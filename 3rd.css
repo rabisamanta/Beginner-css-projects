@@ -153,8 +153,9 @@ div:active{
 .loder {
    height: 100px;
    width: 100px;
-   border-bottom: 50%;
-   
+   border-radius: 50%;
+   border: 5px solid green;
+
 }
 
 
