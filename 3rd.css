@@ -117,9 +117,10 @@ div {
    animation: coloranimation 2s ease-in 0s infinite normal ; */
 }
 @keyframes coloranimate {
-   from{background-color: aqua;}
+   /* from{background-color: aqua;}
    to {background-color: red;}
-   /* 0% {
+    */
+   0% {
       left: 0px;
       background-color: red;
    } 
@@ -130,7 +131,7 @@ div {
       left: 200px;
       background-color: blue;
       color: white;
-   } */
+   }
 }
 
 div:hover{
