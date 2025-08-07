@@ -105,6 +105,8 @@ div {
    animation-timing-function: ease-in;
    animation-delay: s;
    animation-iteration-count: infinite;
+   animation-direction: reverse;
+
 /*    
    transition-property: all;
    transition-timing-function: steps(5) ; */
