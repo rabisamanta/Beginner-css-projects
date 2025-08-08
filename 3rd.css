@@ -151,10 +151,11 @@ div:active{
 
 
 .loder {
-   height: 100px;
-   width: 100px;
+   height: 200px;
+   width: 200px;
    border-radius: 50%;
-   border: 5px solid green;
+   border: 20px solid rgb(226, 0, 0);
+   border-top: 10px solid green;
 
 }
 
