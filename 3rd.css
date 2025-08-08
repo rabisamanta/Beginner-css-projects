@@ -154,9 +154,9 @@ div:active{
    height: 200px;
    width: 200px;
    border-radius: 50%;
-   border: 20px solid rgb(226, 0, 0);
-   border-top: 10px solid green;
-   animation: spinanimate 3s steps(5) 0s infinite normal;
+   border: 20px solid rgb(0, 4, 255);
+   border-top: 20px solid rgb(127, 114, 224);
+   animation: spinanimate 1s ease-in-out 0s infinite normal;
 
 }
 @keyframes spinanimate {
