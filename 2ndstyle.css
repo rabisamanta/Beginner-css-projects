@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: ;
     margin: ;
     color: rgb(255, 255, 255);
@@ -24,9 +24,9 @@ a{
 }
 
 
-/* .content{
+.content{
      display:inline-block;
-} */
+}
 
 .contentBox1{
     
@@ -67,7 +67,7 @@ a{
 
 #box2{
     height: 50px;
-    /* width: 30px; */
+    width: 30px; 
     width: 30%;
     background-color: rgba(0, 0, 0, 0.353);
     margin-left:10%;
@@ -91,4 +91,4 @@ footer{
 }
 h1{
     background-color: aqua;
-}
+} */
